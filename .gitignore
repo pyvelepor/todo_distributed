@@ -1,2 +1,6 @@
 todo.txt-cli
 .todo.actions.d
+todo/
+*.un~
+*~
+.gitignore
