@@ -13,7 +13,6 @@ function usage {
 
 [ "$action" = "usage" ] && usage
 
-cd "$TODO_DIR"
-$TODO_SH commit
-$TODO_SH pull
-$TODO_SH push
+$TODO_FULL_SH commit
+$TODO_FULL_SH pull
+$TODO_FULL_SH push
