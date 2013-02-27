@@ -3,10 +3,9 @@
 action=$1
 
 function usage {
-	echo "  $(basename $0) [-v]"
-	echo "    Push changes in Git repository located at $TODO_DIR."
-        echo "    to <repo path> <branch name>."
-	echo "    If -v argument is provided, only a preview will be shown."
+	echo "  $(basename $0)"
+        echo "  Uses the commit, pull and push addons to keep the local "
+        echo "  repository at $TODO_DIR and remote repository in sync. "
 	echo ""
 	exit
 }

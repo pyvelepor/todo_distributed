@@ -3,10 +3,9 @@
 action=$1
 
 function usage {
-	echo "  $(basename $0) [-v]"
-	echo "    Push changes in Git repository located at $TODO_DIR."
-        echo "    to <repo path> <branch name>."
-	echo "    If -v argument is provided, only a preview will be shown."
+	echo "  $(basename $0)"
+	echo "    Pushes all changes at $TODO_DIR to a remote repository."
+	echo "    Changes are always pushed to origin master."
 	echo ""
 	exit
 }
